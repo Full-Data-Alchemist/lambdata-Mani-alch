@@ -1,0 +1,9 @@
+README.md
+setup.py
+Lambdata_ManI_Alch.egg-info/PKG-INFO
+Lambdata_ManI_Alch.egg-info/SOURCES.txt
+Lambdata_ManI_Alch.egg-info/dependency_links.txt
+Lambdata_ManI_Alch.egg-info/requires.txt
+Lambdata_ManI_Alch.egg-info/top_level.txt
+lambdata-Mani-alch/__init__.py
+lambdata-Mani-alch/day_1.py

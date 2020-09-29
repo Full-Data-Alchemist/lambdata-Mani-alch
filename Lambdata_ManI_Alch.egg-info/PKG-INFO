@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: Lambdata-ManI-Alch
+Version: 0.0.1
+Summary: A collection of data science functions
+Home-page: https://github.com/Full-Data-Alchemist/lambdata-Mani-alch
+Author: Full-Data-Alchemist
+License: UNKNOWN
+Description: # lambdata-Mani-alch
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS independent
+Requires-Python: >=3.6
