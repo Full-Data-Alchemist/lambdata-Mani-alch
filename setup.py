@@ -17,7 +17,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
   name="Lambdata-ManI-Alch",
-  version="0.0.1",
+  version="0.0.2",
   author="Full-Data-Alchemist",
   description="A collection of data science functions",
   long_description=LONG_DESCRIPTION,
