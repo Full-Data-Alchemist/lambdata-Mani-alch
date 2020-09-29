@@ -6,7 +6,8 @@ import setuptools
 
 REQUIRED = [
   "numpy",
-  "pandas"
+  "pandas",
+  "Sklearn"
 ]
 
 with open("README.md", "r") as fh:
