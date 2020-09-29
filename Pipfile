@@ -10,6 +10,7 @@ pandas = "*"
 numpy = "*"
 sklean = "*"
 scikit-learn = "*"
+shap = "*"
 
 [requires]
 python_version = "3.7"

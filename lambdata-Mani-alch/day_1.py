@@ -1,8 +1,8 @@
 """Implement at least 2 of the following "helper" utility functions"""
 
 
-import pandas
-import numpy
+import pandas as pd
+import numpy as np
 from sklearn.model_selection import train_test_split
 
 
