@@ -17,7 +17,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
   name="Lambdata-ManI-Alch",
-  version="0.0.2",
+  version="0.0.3",
   author="Full-Data-Alchemist",
   description="A collection of data science functions",
   long_description=LONG_DESCRIPTION,
@@ -29,6 +29,6 @@ setuptools.setup(
   classifiers=[
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
-    "Operating System :: OS independent"
+    "Operating System :: OS Independent"
   ]
 )
