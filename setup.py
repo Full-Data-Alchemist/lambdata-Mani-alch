@@ -8,7 +8,7 @@ REQUIRED = [
   "numpy",
   "pandas",
   "Sklearn",
-  "shap"
+  "shap",
   "shapley"
 ]
 
@@ -16,7 +16,7 @@ with open("README.md", "r") as fh:
   LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
-  name="Lambdata-ManI-Alch",
+  name="Lambdata-alcheMani",
   version="0.0.3",
   author="Full-Data-Alchemist",
   description="A collection of data science functions",
