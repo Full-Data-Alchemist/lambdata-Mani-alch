@@ -3,7 +3,6 @@ Implement at least 2 of the following "helper" utility functions
 """
 
 # My imports
-
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -11,7 +10,7 @@ import shap
 
 def splitter(df, train, test):
     """function splits a dataframe"""
-    df = df.copy() #protectg og dataframe
+    df = df.copy() #protects og dataframe
     train = train
     test = test
     train, test = train_test_split(df, 
@@ -22,6 +21,8 @@ def splitter(df, train, test):
     y = test
     return X, y
 
+
+# my own function
 def shapVal(row, model, encoder):
     """Function returns shap values"""
     row = X_test.loc[[row]]
@@ -40,4 +41,4 @@ def shapVal(row, model, encoder):
         link='logit')
     
 if __name__ == "__main__":
-    
+    pass
