@@ -5,6 +5,17 @@ OOP examples for module 2
 import pandas as pd
 import numpy as np
 
+
+
+
+class MyDataFrame(pd.DataFrame):
+    """
+    inherinting from pandas data frame class to extent on it for personal tool creation
+    """
+    def num_cell(self):
+        cell_count = self.shape[0] * self.shape[1]
+        return cell_count
+
 class BareMinClass:
     """
     Bare Minimum Class
@@ -76,7 +87,21 @@ class Sloth(Animal):
     """
 
     """
-    pass
+    def __iinit__(self, name, weight, diet_type, num_naps):
+        super().__init__(name, weight, diet_type)
+        self.num__naps = num_naps
+    
+    def say_something(self):
+        """
+        what does the sloth say
+        """
+        return f'this is a sloth of typIng'
+
+    def run(self):
+        """
+        what is the sloth speed
+        """
+        return f'I am a slow guy'
 
 
 

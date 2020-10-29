@@ -2,6 +2,7 @@
 Implement at least 2 of the following "helper" utility functions
 """
 
+# My imports
 
 import pandas as pd
 import numpy as np
@@ -9,7 +10,7 @@ from sklearn.model_selection import train_test_split
 import shap
 
 
-class ManisAlchemy:
+class Alchemani:
     """
     class for my two helper funtions
     """
@@ -20,7 +21,7 @@ class ManisAlchemy:
 
     def splitter(self, df):
         """function splits a dataframe"""
-        self.df = self.df.copy() #protectg og dataframe
+        self.df = df.copy() #protectg og dataframe
         train, test = train_test_split(df, 
                                             train=.8,
                                             test=.2)
