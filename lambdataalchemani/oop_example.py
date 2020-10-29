@@ -87,7 +87,7 @@ class Sloth(Animal):
     """
 
     """
-    def __iinit__(self, name, weight, diet_type, num_naps):
+    def __init__(self, name, weight, diet_type, num_naps):
         super().__init__(name, weight, diet_type)
         self.num__naps = num_naps
     
